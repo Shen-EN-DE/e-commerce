@@ -1,0 +1,14 @@
+ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url=jdbc:mysql://localhost:3306/springboot?serverTimezone=Asia/Taipei&characterEncoding=utf-8&useUnicode=true
+spring.datasource.username=myUser
+spring.datasource.password=mypassword
+
+spring.jackson.time-zone=GMT+8
+spring.jackson.date-format=yyyy-MM-dd HH:mm:ss
+
+security.jwt.secret=pbsdopbfoiapmobpa890b0298q05nbapbmowief1456epj23909f8f2opnoagsazga764gzg
+security.jwt.expirationTime=3600000
+
+spring.servlet.multipart.max-file-size=2MB
+spring.servlet.multipart.max-request-size=2MB
+
